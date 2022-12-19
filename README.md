@@ -28,3 +28,10 @@ You need to provide them in your devices.conf (see example).
 
 debugging can be switched on with setting enviroment DEBUG, (example in compose.yml_sample).
 as argument for docker `-e 'DEBUG=tuya-mqtt:*'`
+
+## getting device id, key, ip and version
+
+use the tinytuya python project:
+https://pypi.org/project/tinytuya/
+
+(tuya version 3.4 isn't implemented as far I know)
