@@ -25,3 +25,6 @@ see sample compose.yml for hints how to use tuya-mqtt bridge in docker together 
 Be aware, as long the tuya-mqtt container is not exposed to host-network,
 it can't find ip-addresses of tuya devices for itself.
 You need to provide them in your devices.conf (see example).
+
+debugging can be switched on with setting enviroment DEBUG, (example in compose.yml_sample).
+as argument for docker `-e 'DEBUG=tuya-mqtt:*'`
