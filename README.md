@@ -1,4 +1,4 @@
-# node-tuya-mqtt
+# Docker image for tuya-mqtt bridge based on node.js
 
 Docker image for tuya-mqtt bridge. This software allows you to
 integrate your tuya-devices in your selfmade mqtt IOT network.
