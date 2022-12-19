@@ -17,6 +17,6 @@ VOLUME ["/opt/tuya-mqtt/config"]
 
 WORKDIR /opt/tuya-mqtt
 
-ENV DEBUG=tuya-mqtt:*
+ENV DEBUG=''
 
 ENTRYPOINT ["node", "tuya-mqtt.js"]
