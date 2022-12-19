@@ -14,9 +14,10 @@ services:
 
   tuya:
     image: tuya-mqtt
+    enviroment:
+      - DEBUG=tuya-mqtt:*
     links:
       - mosquitto
-    dns: 192.168.4.1
     restart: "no"
     volumes:
       - ./tuya:/opt/tuya-mqtt/config
