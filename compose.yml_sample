@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+
+  mosquitto:
+    image: eclipse-mosquitto
+    restart: "no"
+    ports:
+      - 1883:1883
+    volumes:
+      - ./mosquitto_config:/mosquitto/config
+      - ./mosquitto_data:/mosquitto/data
+      - ./mosquitto_log:/mosquitto/log
+
+  tuya:
+    image: tuya-mqtt
+    links:
+      - mosquitto
+    dns: 192.168.4.1
+    restart: "no"
+    volumes:
+      - ./tuya:/opt/tuya-mqtt/config
+
