@@ -1,0 +1,89 @@
+[
+  {
+    name: 'Esszimmer_2',
+    id: 'xxxxxxxxxxxxxxxxxxxxxx',
+    key: 'xxxxxxxxxxxxxxxx',
+    ip: '192.168.4.197',
+    version: '3.3',
+    type: "RGBTWLight"
+  },
+  {
+    name: 'Esszimmer_1',
+    id: 'xxxxxxxxxxxxxxxxxxxxxx',
+    key: 'xxxxxxxxxxxxxxxx',
+    ip: '192.168.4.199',
+    version: '3.3',
+    type: "RGBTWLight"
+  },
+  {
+    name: 'Esszimmer_3',
+    id: 'xxxxxxxxxxxxxxxxxxxxxx',
+    key: 'xxxxxxxxxxxxxxxx',
+    ip: '192.168.4.198',
+    version: '3.3',
+    type: "RGBTWLight"
+  },
+  {
+    name: 'Standleuchte',
+    id: 'xxxxxxxxxxxxxxxxxxxxxx',
+    key: 'xxxxxxxxxxxxxxxx',
+    ip: '192.168.4.215',
+    version: '3.3',
+    template: {
+      state: {
+        key: 20,
+        type: 'bool'
+      },
+      white_brightness_state: { 
+        key: 22,
+        type: 'int',
+        topicMin: 1,
+        topicMax: 100,
+        stateMath: '/10',
+        commandMath: '*10'
+      },
+      color_temp_state: { 
+        key: 23,
+        type: 'int',
+        topicMin: 1,
+        topicMax: 100,
+        stateMath: '/10',
+        commandMath: '*10'
+      }
+    }
+
+  },
+  {
+    name: 'Vorne_2',
+    id: 'xxxxxxxxxxxxxxxxxxxxxx',
+    key: 'xxxxxxxxxxxxxxxx',
+    ip: '192.168.4.193',
+    version: '3.3',
+    type: "RGBTWLight"
+  },
+  {
+    name: 'Vorne_3',
+    id: 'xxxxxxxxxxxxxxxxxxxxxx',
+    key: 'xxxxxxxxxxxxxxxx',
+    ip: '192.168.4.217',
+    version: '3.3',
+    type: "RGBTWLight"
+  },
+  {
+    name: 'Vorne_1',
+    id: 'xxxxxxxxxxxxxxxxxxxxxx',
+    key: 'xxxxxxxxxxxxxxxx',
+    type: "RGBTWLight",
+    ip: '192.168.4.216',
+    version: '3.3',
+  },
+  {
+    name: 'Ambiente',
+    id: 'xxxxxxxxxxxxxxxxxxxxxx',
+    key: 'xxxxxxxxxxxxxxxx',
+    ip: '192.168.4.222',
+    version: '3.3',
+    type: "RGBTWLight"
+  }
+]
+

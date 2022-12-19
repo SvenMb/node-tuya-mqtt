@@ -1,0 +1,7 @@
+{
+    "host": "mosquitto",
+    "port": 1883,
+    "topic": "tuya/",
+    "mqtt_user": "tuya_user",
+    "mqtt_pass": "password123"
+}
