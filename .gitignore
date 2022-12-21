@@ -1,4 +1,5 @@
 *~
 /config/config.json
 /config/devices.conf
+/config/devices.conf_bkp*
 .DS_Store
