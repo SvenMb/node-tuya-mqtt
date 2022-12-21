@@ -9,7 +9,7 @@ https://github.com/TheAgentK/tuya-mqtt
 The node.js software and base Dockerfile you can find here:
 https://github.com/nodejs/docker-node
 
-The official image on docker-hub is here:
+The official image for node.js on docker-hub is here:
 https://hub.docker.com/_/node/
 
 ## create image 
