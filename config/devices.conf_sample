@@ -1,57 +1,57 @@
 [
   {
     name: 'Esszimmer_2',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     ip: '192.168.4.197',
     version: '3.3',
     type: "RGBTWLight"
   },
   {
     name: 'Esszimmer_1',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     ip: '192.168.4.199',
     version: '3.3',
     type: "RGBTWLight"
   },
   {
     name: 'Esszimmer_3',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     ip: '192.168.4.198',
     version: '3.3',
     type: "RGBTWLight"
   },
   {
     name: 'Esszimmer_4',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     ip: '192.168.4.226',
     version: '3.3',
     type: "RGBTWLight"
   },
   {
     name: 'Esszimmer_5',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     ip: '192.168.4.227',
     version: '3.3',
     type: "RGBTWLight"
   },
   {
     name: 'Standleuchte',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     ip: '192.168.4.225',
     version: '3.3',
     template: {
       state: {
-        key: xxxxxxxxxxxxxxxx
+        key: 'xxxxpasswordxxxx',
         type: 'bool'
       },
       white_brightness_state: { 
-        key: xxxxxxxxxxxxxxxx
+        key: 'xxxxpasswordxxxx',
         type: 'int',
         topicMin: 1,
         topicMax: 100,
@@ -59,7 +59,7 @@
         commandMath: '*10'
       },
       color_temp_state: { 
-        key: xxxxxxxxxxxxxxxx
+        key: 'xxxxpasswordxxxx',
         type: 'int',
         topicMin: 154,
         topicMax: 450,
@@ -71,32 +71,32 @@
   },
   {
     name: 'Vorne_2',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     ip: '192.168.4.193',
     version: '3.3',
     type: "RGBTWLight"
   },
   {
     name: 'Vorne_3',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     ip: '192.168.4.217',
     version: '3.3',
     type: "RGBTWLight"
   },
   {
     name: 'Vorne_1',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     type: "RGBTWLight",
     ip: '192.168.4.216',
     version: '3.3',
   },
   {
     name: 'Ambiente',
-    id: xyzxyzxyzxyzxyzxyzxyzz
-    key: xxxxxxxxxxxxxxxx
+    id: 'xyzxyzxyzxyzxyzxyzxyzz',
+    key: 'xxxxpasswordxxxx',
     ip: '192.168.4.222',
     version: '3.3',
     type: "RGBTWLight"
